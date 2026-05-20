@@ -16,3 +16,12 @@ added git merge origin/dev in execute shell in job2-merge
 added these two lines in job2:
 git merge origin/dev
 git push origin main
+
+used this code for JES (Jenkins Execute Shell):
+git fetch origin
+
+git checkout -B main origin/main
+
+git merge origin/dev
+
+git push origin main
