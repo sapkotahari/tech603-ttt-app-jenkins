@@ -10,3 +10,5 @@ forgot to add post-build actions in job1, which meant  jobs 1 and 2 weren't link
 But now they are linked.
 
 Added git merge dev in execute shell in job2-merge
+
+added git merge origin/dev in execute shell in job2-merge
