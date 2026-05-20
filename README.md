@@ -7,3 +7,6 @@ Created a dev branch, then line added to test job1 triggers with push to dev bra
 created job2-merge to merge dev to main.
 
 forgot to add post-build actions in job1, which meant  jobs 1 and 2 weren't linked. As a result only job1 ran after git push to dev.
+But now they are linked.
+
+Added git merge dev in execute shell in job2-merge
